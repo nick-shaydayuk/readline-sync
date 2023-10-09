@@ -1,7 +1,8 @@
 # Readline-sync practice
 
 ## Preparations
-1. We believe you've reached 26-th lesson on hexlet - make sure you have.
+0. We believe you've reached 26-th lesson on hexlet - make sure you have.
+1. Clone this repository
 2. Open your terminal and enter THIS directory.
 3. Run __npm init__ command and click enter several times.
 4. You'll see some new files added to current working directory. So let us explore those: 
@@ -10,12 +11,13 @@
 5. Install the __readline-sync__ library via npm (node package manager). If you ran out of ideas how to do it, google this: "npm install something"
 6. Create a new __index.js__ 
 7. Insert following code into __index.js__:
-"const readlineSync = require('readline-sync');
+    `const readlineSync = require('readline-sync');
 
-// Запрос имени пользователя
-const userName = readlineSync.question('Введите ваше имя: ');
+    // Запрос имени пользователя
+    const userName = readlineSync.question('Введите ваше имя: ');
 
-console.log(Привет, ${userName}! Добро пожаловать в мир Node.js и readline-sync.);"
+    console.log(Привет, ${userName}! Добро пожаловать в мир Node.js и readline-sync.);`
+
 8. For the next step, run your code in terminal aka CLI aka command line interface. Remember that "node fileName.js" command? You'll need this.
 9. The result has to look like terminal asks your name, then you type it and then terminal greets you.
 10. Alright mate, if you're finished, call teacher to check this out
