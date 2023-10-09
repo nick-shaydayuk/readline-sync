@@ -24,6 +24,7 @@
 
 ## Some rules
 So, for the following tasks the result is:
+
 0. Don't forget to create a new file for each task
 1. A function
 2. The function does "return" something
